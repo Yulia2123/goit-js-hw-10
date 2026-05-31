@@ -30,7 +30,7 @@ const options = {
       startBtn.disabled = true;
 
       iziToast.error({
-        message: 'Error Illrgal operation',
+        message: 'Please choose a date in the future',
         position: 'topRight',
       });
 
