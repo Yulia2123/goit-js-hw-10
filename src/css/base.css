@@ -22,11 +22,29 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  font-family: Montserrat, sans-serif;
+  color: #2e2f42;
+  background-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 main {
   flex-grow: 1;
 }
 main:has(.back-link) {
-  text-align: center;
+  text-align: left;
 }
